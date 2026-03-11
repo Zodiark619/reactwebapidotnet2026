@@ -24,7 +24,6 @@ function P1_0Main() {
     fetchData();
   }, []);
   if (!data) return <p>Loading...</p>;
-
   return (
     <div>
       <P1_1Navbar data={data} />
@@ -39,5 +38,4 @@ function P1_0Main() {
     </div>
   );
 }
-//name ,email,github
 export default P1_0Main;
