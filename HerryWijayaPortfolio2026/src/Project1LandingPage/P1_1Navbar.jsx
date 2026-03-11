@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function P1_1Navbar() {
+export default function P1_1Navbar({ data }) {
   const [active, setActive] = useState(false);
 
   return (
