@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
-import Project1LandingPage from "./api/Project1LandingPage";
-function App() {
+import Project1LandingPage from "../api/Project1LandingPage";
+import P1_1Navbar from "./P1_1Navbar.jsx";
+function P1_0Main() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -22,11 +20,9 @@ function App() {
 
   return (
     <div>
-      <h1>{data.name}</h1>
-      <p>{data.email}</p>
-      <p>{data.github}</p>
+      <P1_1Navbar />
     </div>
   );
 }
 
-export default App;
+export default P1_0Main;

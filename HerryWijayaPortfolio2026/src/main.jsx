@@ -1,10 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
+import P1_0Main from "./Project1LandingPage/P1_0Main.jsx";
 
-createRoot(document.getElementById("root")).render(
-  // <StrictMode>
-  <App />,
-  // </StrictMode>,
-);
+createRoot(document.getElementById("root")).render(<P1_0Main />);
+// <StrictMode>
+// </StrictMode>,
