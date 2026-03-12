@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://localhost:7182",
+  baseURL: "http://herrywijayareact2026.runasp.net",
 });
 
 export default api;

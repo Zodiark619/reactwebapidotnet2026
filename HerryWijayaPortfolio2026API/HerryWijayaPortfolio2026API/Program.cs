@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("HerryWijayaPortfolio2026",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173")
+            policy.WithOrigins("https://zodiark619.github.io")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
