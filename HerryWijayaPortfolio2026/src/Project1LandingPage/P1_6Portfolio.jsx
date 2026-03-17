@@ -9,7 +9,10 @@ export default function P1_6Portfolio({ data }) {
         </header>
         <div className="card-content">
           <figure className="image">
-            <img src={`/Project1LandingPage/${x.previewimage}`} alt={x.title} />
+            <img
+              src={`./Project1LandingPage/${x.previewimage}`}
+              alt={x.title}
+            />
           </figure>
         </div>
         <footer className="card-footer">

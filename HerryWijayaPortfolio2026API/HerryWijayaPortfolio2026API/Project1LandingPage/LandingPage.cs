@@ -5,7 +5,7 @@
     {
         public static RouteHandlerBuilder MapLandingPage(this IEndpointRouteBuilder app)
         {
-            return app.MapGet("/", () =>
+            return app.MapGet("/api/project1landingpage", () =>
               {
 
                   return new

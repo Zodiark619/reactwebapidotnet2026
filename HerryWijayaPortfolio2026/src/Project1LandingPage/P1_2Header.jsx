@@ -4,7 +4,7 @@ export default function P1_2Header({ data }) {
       <section
         className="hero is-link is-fullheight is-fullheight-with-navbar"
         style={{
-          backgroundImage: `url(/Project1LandingPage/${data.heroimage})`,
+          backgroundImage: `url(./Project1LandingPage/${data.heroimage})`,
           backgroundSize: "full",
           backgroundPosition: "center",
         }}

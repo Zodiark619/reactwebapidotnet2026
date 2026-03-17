@@ -6,7 +6,7 @@ export default function P1_5Resume({ data }) {
           <h3 className="title is-2">Resume</h3>
           <h4 className="subtitle is-5">More about my past</h4>
           <a
-            href={`/Project1LandingPage/${data.resume}`}
+            href={`./Project1LandingPage/${data.resume}`}
             download
             className="button is-link is-medium"
           >
